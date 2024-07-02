@@ -1,0 +1,21 @@
+{
+  "name": "chart.js-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  },
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "@cubejs-client/core": "^0.31.0",
+    "chart.js": "^4.4.3",
+    "d3": "^7.9.0"
+  }
+}
